@@ -269,7 +269,7 @@ a#signup{
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
-        height: 100vh;
+        height: 92vh;
         position: absolute;
         top: 11vh;
         padding: 2%;
