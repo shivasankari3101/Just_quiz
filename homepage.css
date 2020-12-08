@@ -136,11 +136,11 @@ a#signup{
 }
 
 #work_card{
-    box-shadow:3px 3px 3px #555555;
-    height: 40vh;
+    box-shadow: 3px 3px 3px #555555;
+    height: 60vh;
     background-color: #15141b;
-    padding: 10%;
-    margin:15%;
+    padding: 3%;
+    margin: 10%;
 }
 
 #work_card img{
@@ -213,6 +213,10 @@ a#signup{
         width: 25px;
         height: 25px;
         padding: 5px;
+    }
+
+    #work_card{
+        height: 72vh;
     }
 }
 
@@ -374,6 +378,13 @@ a#signup{
 @media (max-width:440px){
     .onclick_navbar_menu{
         top: 10vh;
+    }
+}
+
+
+@media (min-width:768px) and (max-width:769px){
+    #work_card{
+        height: 72vh;
     }
 }
 
