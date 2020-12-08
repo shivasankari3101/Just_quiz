@@ -254,6 +254,10 @@ a#signup{
         padding-left: 0;
     }
 
+    #navbar_menu{
+        font-size: 1.3rem;
+    }
+
     .before_menu{
         display: none;
     }
@@ -262,9 +266,10 @@ a#signup{
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
-        height: 85vh;
+        height: 100vh;
         position: absolute;
         top: 11vh;
+        padding: 2%;
     }
 
     .onclick_navbar_menu a{
@@ -394,7 +399,7 @@ a#signup{
 
 @media (min-width:768px) and (max-width:769px){
     #work_card{
-        height: 72vh;
+        height: 50vh;
     }
 }
 
