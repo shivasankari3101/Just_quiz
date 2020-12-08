@@ -61,7 +61,9 @@ body{
 /* Section1 styles */
 
 #section1{
-    height: 90vh;
+    height:50vh;
+    max-height: max-content;
+    padding-bottom: 10%;
    background-color: #15141b;
    color: #fff;  
    overflow: hidden;
