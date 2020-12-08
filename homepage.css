@@ -198,8 +198,7 @@ a#signup{
 @media (max-width:1179px) and (min-width:992px){ 
     #navbar_menu{
         width: 60%;
-    }
-    
+    }    
 }
 
 @media (max-width:1200px) and (min-width:992px){ 
@@ -227,6 +226,10 @@ a#signup{
 
     #work_card{
         height: 72vh;
+    }
+
+    #section1_contents h1{
+        font-size: 3rem;
     }
 }
 
