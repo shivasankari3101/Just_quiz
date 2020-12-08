@@ -199,7 +199,17 @@ a#signup{
     #navbar_menu{
         width: 60%;
     }
+    
 }
+
+@media (max-width:1200px) and (min-width:992px){ 
+  #section1_contents h1{
+      font-size: 3rem;
+  }
+
+}
+
+
 
 
 
@@ -391,7 +401,59 @@ a#signup{
 
 
 
+/* svg styles */
 
+.Line{
+    animation: appear 0.3s ease-in-out;
+    animation-fill-mode: backwards;
+}
+
+@keyframes appear{
+    from{opacity: 0;}
+    to{opacity: 1;}
+}
+
+.Line_1{
+    -moz-animation-delay: 0s;
+    -o-animation-delay: 0s;
+    -webkit-animation-delay: 0s;
+    animation-delay: 0s;
+}
+
+.Line_2{
+    -moz-animation-delay: 0.2s;
+    -o-animation-delay: 0.2s;
+    -webkit-animation-delay: 0.2s;
+    animation-delay: 0.2s;
+}
+
+.Line_3{
+    -moz-animation-delay: 0.4s;
+    -o-animation-delay: 0.4s;
+    -webkit-animation-delay: 0.4s;
+    animation-delay: 0.4s;
+}
+
+.Line_4{
+    -moz-animation-delay: 0.6s;
+    -o-animation-delay: 0.6s;
+    -webkit-animation-delay: 0.6s;
+    animation-delay: 0.6s;
+}
+
+.Line_5{
+    -moz-animation-delay: 0.8s;
+    -o-animation-delay: 0.8s;
+    -webkit-animation-delay: 0.8s;
+    animation-delay: 0.8s;
+}
+
+.Line_6{
+    -moz-animation-delay: 1s;
+    -o-animation-delay: 1s;
+    -webkit-animation-delay: 1s;
+    animation-delay: 1s;
+}
 
 
 
