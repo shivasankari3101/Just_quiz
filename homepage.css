@@ -37,6 +37,10 @@ body{
     font-weight: bold;
 }
 
+#navbar a#signUp:hover{
+    color:#000;
+}
+
 #mobile_navbar{
     width: 50%;
 }
