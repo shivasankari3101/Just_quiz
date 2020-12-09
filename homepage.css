@@ -61,7 +61,7 @@ body{
 /* Section1 styles */
 
 #section1{
-    height:50vh;
+    height:fit-content;
     max-height: max-content;
     padding-bottom: 10%;
    background-color: #15141b;
